@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
       },
+      backgroundImage: {
+        'custom-banner': "url('/public/TopBannerBackground.svg')",
+      },
     },
   },
   plugins: [],

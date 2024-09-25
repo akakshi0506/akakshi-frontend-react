@@ -1,7 +1,10 @@
 import React from 'react';
+import TopBanner from '../global-components/TopBanner';
 
 const Productpage = () => {
-    return <h1>Sub Page 1</h1>;
+    return(
+        <TopBanner header_text={''} />
+    );
 };
 
 export default Productpage;
