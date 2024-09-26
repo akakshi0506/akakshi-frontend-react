@@ -14,7 +14,7 @@ const Header = () => {
           <a href="/" className="text-gray-700 hover:text-yellow-600 no-underline font-thin">Home</a>
           <a href="/productpage" className="text-gray-700 hover:text-yellow-600 no-underline font-thin">Shop</a>
           <a href="/about" className="text-gray-700 hover:text-yellow-600 no-underline font-thin">About Us</a>
-          <a href="/contact" className="text-gray-700 hover:text-yellow-600 no-underline font-thin">Contact</a>
+          <a href="/contactus" className="text-gray-700 hover:text-yellow-600 no-underline font-thin">Contact Us</a>
           <a href="/cart" className="text-gray-700 hover:text-yellow-600 no-underline font-thin">Cart</a>
         </nav>
       </div>
