@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import TopBanner from '../global-components/TopBanner';
 import { Button } from 'react-bootstrap';
+import Footer from '../global-components/Footer';
 
 const ContactUspage = () => {
     const [firstName, setFirstName] = useState('');
@@ -35,8 +36,8 @@ const ContactUspage = () => {
     return (
         <div>
             <TopBanner header_text="Get in touch" sub_text="Our team would love to hear from you." />
-            <div className='flex flex-row'>
-                <div className='flex basis-[60%] flex-col p-[60px] justify-center'>
+            <div className='flex flex-row justify-center'>
+                <div className='flex basis-[50%] flex-col p-[60px] justify-center'>
                     <div className='flex px-[60px] pb-[50px] justify-between'>
                         <div className='flex flex-col basis-[40%]'>
                             <div className='pb-[4px] font-[300]'>First Name</div>
@@ -89,10 +90,10 @@ const ContactUspage = () => {
                         </Button>
                     </div>
                 </div>
-                <div className='bg-gray-400 flex basis-[40%]'>
-                    <h4>Our Location</h4>
+                <div className='flex basis-[50%] bg-contact-us-page bg-cover bg-no-repeat h-auto'>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };
