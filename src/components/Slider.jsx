@@ -42,7 +42,7 @@ const HomeSlider = () => {
             <div className='absolute bottom-[0.5rem] left-1/2 transform -translate-x-1/2'>
               <FontAwesomeIcon icon={faAnglesDown} beatFade style={{ color: "#fcfcfc", fontSize: "2rem" }} />
             </div>
-          </Carousel.Item>
+          </Carousel.Item> 
         ))}
       </Carousel>
     </div>
