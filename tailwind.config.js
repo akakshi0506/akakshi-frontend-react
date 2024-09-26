@@ -10,6 +10,7 @@ module.exports = {
       },
       backgroundImage: {
         'custom-banner': "url('/public/TopBannerBackground.svg')",
+        'contact-us-page': "url('/public/contactUsPageImage1.jpg')",
       },
     },
   },
